@@ -97,7 +97,7 @@ function renderServicesSectionContents(){
     servicesCardHTML += `
       <div class="service-card">
         <img src="images-and-icons/images/${service.image}" alt="${service.image}" class="services-img">
-        <p class="services-label">Web Development</p>
+        <p class="services-label">${service.name}</p>
       </div>
     `
   });
